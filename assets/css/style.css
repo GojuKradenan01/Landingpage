@@ -789,6 +789,11 @@ h6 {
 .fbs__net-navbar .offcanvas-header .offcanvas-header-logo .logo-link .logo.light {
   display: none;
 }
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-left: 0.1rem;
+}
 
 
 @-webkit-keyframes fadeInUp {
@@ -1030,9 +1035,8 @@ h6 {
   overflow-x: auto;
   padding-bottom: 1rem;
   gap: 1.5rem;
-  scroll-snap-type: x mandatory;
-  scrollbar-width: none;
-  /* Firefox */
+  scrollbar-width: none; 
+  scroll-behavior: smooth;
 }
 
 .about__v4 .scroll-card-container::-webkit-scrollbar {
@@ -1042,7 +1046,6 @@ h6 {
 
 .about__v4 .scroll-card {
   flex: 0 0 280px;
-  scroll-snap-align: start;
   border: none;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
