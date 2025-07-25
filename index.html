@@ -14,6 +14,10 @@ License: https://freebootstrap.net/license
   <link rel="icon" href="assets/images/LOGOGujukai.png" type="image/png">
 
 
+  <!-- ======= CDN =======-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- End CDN -->
+
   <!-- ======= Google Font =======-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
@@ -49,169 +53,7 @@ License: https://freebootstrap.net/license
   <div class="site-wrap">
 
 
-    <!-- ======= Header =======-->
-    <header class="fbs__net-navbar navbar navbar-expand-lg dark" aria-label="freebootstrap.net navbar">
-      <div class="container d-flex align-items-center justify-content-between">
-
-
-        <!-- Start Logo-->
-        <a class="navbar-brand w-auto" href="index.html">
-          <!-- If you use a text logo, uncomment this if it is commented-->
-          <!-- Vertex-->
-
-          <!-- If you plan to use an image logo, uncomment this if it is commented-->
-
-          <div class="fbs__net-navbar">
-            <div class="navbar-brand" style="display: flex; align-items: center;">
-              <!-- Start Logo-->
-              <a class="navbar-brand d-flex align-items-center" href="index.html" style="gap: 10px;">
-                <!-- Logo -->
-                <img class="logo dark img-fluid" src="assets/images/LOGOGujukai.png" alt="Logo Gojukai"
-                  style="max-height: 40px;">
-                <img class="logo light img-fluid" src="assets/images/LOGOGujukai.png" alt="Logo Gojukai"
-                  style="max-height: 40px;">
-
-                <!-- Tulisan di sebelah logo -->
-                <div style="line-height: 1;">
-                  <span style="font-weight: 600; font-size: 16px; color: #1a1a1a; display: block;">
-                    Dojo 
-                  </span>
-                  <span style="font-weight: 400; font-size: 14px; color: #555; display: block;">
-                    SD Negeri Kradenan 01
-                  </span>
-                </div>
-              </a>
-              <!-- End Logo-->
-
-
-              <!-- Start offcanvas-->
-              <div class="offcanvas offcanvas-start w-75" id="fbs__net-navbars" tabindex="-1"
-                aria-labelledby="fbs__net-navbarsLabel">
-
-
-                <div class="offcanvas-header">
-                  <div class="offcanvas-header-logo">
-                    <!-- If you use a text logo, uncomment this if it is commented-->
-
-                    <!-- h5#fbs__net-navbarsLabel.offcanvas-title Vertex-->
-
-                    <!-- If you plan to use an image logo, uncomment this if it is commented-->
-                    <a class="logo-link" id="fbs__net-navbarsLabel" href="index.html">
-
-
-                      <!-- logo dark--><img class="logo dark img-fluid" src="assets/images/LOGOGujukai.png"
-                        alt="Logo Gujukai">
-
-                      <!-- logo light--><img class="logo light img-fluid" src="assets/images/LOGOGujukai.png"
-                        alt="Logo Gojukai"></a>
-
-                  </div>
-                  <button class="btn-close btn-close-black" type="button" data-bs-dismiss="offcanvas"
-                    aria-label="Close"></button>
-                </div>
-
-                <div class="offcanvas-body align-items-lg-center">
-
-
-                  <ul class="navbar-nav nav me-auto ps-lg-5 mb-2 mb-lg-0">
-
-                    <!-- 1. Tentang Kami -->
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">
-                        Tentang Kami <i class="bi bi-chevron-down"></i>
-                      </a>
-                      <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#sejarah">Sejarah Dojo</a></li>
-                        <li><a class="dropdown-item" href="#tim-pelatih">Tim Pelatih</a></li>
-                        <li><a class="dropdown-item" href="#sumpah">Sumpah Karate</a></li>
-                        <li><a class="dropdown-item" href="#janji">Janji Gojukai</a></li>
-                        <li><a class="dropdown-item" href="#keunggulan">Keunggulan Dojo</a></li>
-                        <li><a class="dropdown-item" href="#daftar-dojo">Daftar Dojo Terafiliasi</a></li>
-                        <li><a class="dropdown-item" href="#tingkatan-sabuk">Tingkatan Sabuk</a></li>
-                        <li><a class="dropdown-item" href="#kegiatan">Kegiatan</a></li>
-                        <li><a class="dropdown-item" href="#manfaat">Manfaat Karate</a></li>
-                      </ul>
-                    </li>
-
-                    <!-- 2. Program -->
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">
-                        Program <i class="bi bi-chevron-down"></i>
-                      </a>
-                      <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#latihan-umum">Latihan Umum</a></li>
-                        <li class="dropdown-submenu dropend">
-                          <a class="dropdown-item dropdown-toggle" href="#">Latihan Private</a>
-                          <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#private-individu">Individu (max 2 orang)</a></li>
-                            <li><a class="dropdown-item" href="#private-kelompok">Kelompok (max 6 orang)</a></li>
-                          </ul>
-                        </li>
-                        <li><a class="dropdown-item" href="#pemusatan">Latihan Pemusatan</a></li>
-                        <li><a class="dropdown-item" href="#presensi">Digitalisasi Presensi</a></li>
-                        <li><a class="dropdown-item" href="#beasiswa">Beasiswa</a></li>
-                        <li><a class="dropdown-item" href="#afiliate">Program Afiliate</a></li>
-                      </ul>
-                    </li>
-
-                    <!-- 3. Tempat & Jadwal -->
-                    <li class="nav-item">
-                      <a class="nav-link scroll-link" href="#jadwal">Tempat & Jadwal Latihan</a>
-                    </li>
-
-                    <!-- 5. Prestasi -->
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">
-                        Prestasi <i class="bi bi-chevron-down"></i>
-                      </a>
-                      <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#prestasi-2023">Tahun 2023</a></li>
-                        <li><a class="dropdown-item" href="#prestasi-2024">Tahun 2024</a></li>
-                        <li><a class="dropdown-item" href="#prestasi-2025">Tahun 2025</a></li>
-                      </ul>
-                    </li>
-
-                    <!-- 4. Hubungi Kami -->
-                    <li class="nav-item">
-                      <a class="nav-link scroll-link" href="#kontak">Hubungi Kami</a>
-                    </li>
-
-                  </ul>
-
-                </div>
-              </div>
-              <!-- End offcanvas-->
-
-              <div class="ms-auto w-auto">
-
-
-                <div class="header-social d-flex align-items-center gap-1"><a class="btn btn-primary py-2" href="#">
-                    Daftar </a>
-
-                  <button class="fbs__net-navbar-toggler justify-content-center align-items-center ms-auto"
-                    data-bs-toggle="offcanvas" data-bs-target="#fbs__net-navbars" aria-controls="fbs__net-navbars"
-                    aria-label="Toggle navigation" aria-expanded="false">
-                    <svg class="fbs__net-icon-menu" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                      viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                      stroke-linejoin="round">
-                      <line x1="21" x2="3" y1="6" y2="6"></line>
-                      <line x1="15" x2="3" y1="12" y2="12"></line>
-                      <line x1="17" x2="3" y1="18" y2="18"></line>
-                    </svg>
-                    <svg class="fbs__net-icon-close" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                      viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                      stroke-linejoin="round">
-                      <path d="M18 6 6 18"></path>
-                      <path d="m6 6 12 12"></path>
-                    </svg>
-                  </button>
-
-                </div>
-
-              </div>
-            </div>
-    </header>
-    <!-- End Header-->
+    <div id="header"></div>
 
     <!-- ======= Main =======-->
     <main>
@@ -242,7 +84,7 @@ License: https://freebootstrap.net/license
             </div>
             <div class="col-lg-6">
               <div class="hero-img">
-                
+
                 <img class="img-main img-fluid rounded-4" src="assets/images/karateka,trofi.jpg" alt="Hero Image"
                   data-aos="fade-in" data-aos-delay="500">
               </div>
@@ -318,51 +160,66 @@ License: https://freebootstrap.net/license
       </section>
 
       <!--======= Sejarah Dojo =======-->
-      <section class="section bg-light" id="sejarah">
+      <section class="section bg-light about__v4 py-5" id="sejarah">
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-lg-10">
-              <span class="subtitle text-uppercase mb-3" data-aos="fade-up">Sejarah Dojo</span>
-              <h2 class="mb-4" data-aos="fade-up" data-aos-delay="100">Dojo SD Negeri Kradenan 01 Pekalongan</h2>
-              <div class="content" data-aos="fade-up" data-aos-delay="200">
+              <div class="text-center mb-4" data-aos="fade-up">
+                <span class="subtitle">Sejarah Dojo</span>
+                <h2 class="fw-bold mt-3">Dojo SD Negeri Kradenan 01 Pekalongan</h2>
+              </div>
+              <div class="content fs-6 lh-lg px-md-3 text-justify" data-aos="fade-up" data-aos-delay="200">
                 <p>
-                  Hai Karate Kids...👋<br>
+                  <span class="fw-bold text-primary">Hai Karate Kids...👋</span><br>
                   Seperti kata pepatah: <em>“Tak kenal, maka tak sayang.”</em><br>
                   Yuk kenalan lebih dalam sama Dojo SD Negeri Kradenan 01 Pekalongan biar makin sayang! 😉
                 </p>
-                <p>
-                  Dojo ini dirintis oleh dua Karateka sabuk hitam, yaitu <strong>Senpai Lukman Maulana</strong> dan
-                  <strong>Senpai Dwi Melawati Widodo</strong> yang saat itu masih aktif sebagai atlet Karate Kota
-                  Pekalongan.
-                </p>
-                <p>
-                  Setelah pengajuan proposal pembukaan Dojo disetujui oleh Kepala Sekolah saat itu, latihan perdana pun
-                  resmi dimulai pada <strong>Desember 2010</strong>. Sebagai ekstrakurikuler baru, dojo ini langsung
-                  memiliki ±20 Karateka aktif — sebuah awal yang menjanjikan!
-                </p>
-                <p>
-                  Berkat semangat, latihan rutin, dan optimisme tinggi, para Karateka awal mulai menorehkan prestasi di
-                  berbagai event. Jumlah anggota pun terus bertambah, begitu juga dengan prestasi yang diraih!
-                </p>
-                <p>
-                  Bahkan, beberapa Karateka dari dojo ini sudah meraih <strong>sabuk hitam (Black Belt)</strong> dan
-                  ikut berkontribusi melatih generasi berikutnya. Kini, dojo ini dikenal sebagai salah satu <strong>Dojo
-                    SDN tertua di Kota Pekalongan</strong>! 🤯👏
-                </p>
-                <p>
-                  Setelah baca cerita Mimin, kadar sayangnya ke Dojo SD Negeri Kradenan 01 Pekalongan bertambah gak nih?
-                  🤭 <br>
-                  Sekian perkenalan singkatnya. <br><em>-DMW</em>
-                </p>
+
+                <!-- Konten awal (selalu tampil) -->
+                <div id="sejarah-full" style="display: none;">
+                  <p>
+                    Dojo ini dirintis oleh dua Karateka sabuk hitam, yaitu <strong>Senpai Lukman Maulana</strong> dan
+                    <strong>Senpai Dwi Melawati Widodo</strong> yang saat itu masih aktif sebagai atlet Karate Kota
+                    Pekalongan.
+                  </p>
+
+                  <p>
+                    Setelah pengajuan proposal pembukaan Dojo disetujui oleh Kepala Sekolah saat itu, latihan perdana
+                    pun
+                    resmi dimulai pada <strong>Desember 2010</strong>. Sebagai ekstrakurikuler baru, dojo ini langsung
+                    memiliki ±20 Karateka aktif — sebuah awal yang menjanjikan!
+                  </p>
+                  <p>
+                    Berkat semangat, latihan rutin, dan optimisme tinggi, para Karateka awal mulai menorehkan prestasi
+                    di
+                    berbagai event. Jumlah anggota pun terus bertambah, begitu juga dengan prestasi yang diraih!
+                  </p>
+                  <p>
+                    Bahkan, beberapa Karateka dari dojo ini sudah meraih <strong>sabuk hitam (Black Belt)</strong> dan
+                    ikut berkontribusi melatih generasi berikutnya. Kini, dojo ini dikenal sebagai salah satu
+                    <strong>Dojo SDN tertua di Kota Pekalongan</strong>! 🤯👏
+                  </p>
+                  <p>
+                    Setelah baca cerita Mimin, kadar sayangnya ke Dojo SD Negeri Kradenan 01 Pekalongan bertambah gak
+                    nih? 🤭<br>
+                    Sekian perkenalan singkatnya.<br><em class="d-block mt-2 text-end">-DMW</em>
+                  </p>
+                </div>
+
+                <!-- Tombol toggle -->
+                <div class="text-center mt-4">
+                  <button class="btn btn-outline-primary btn-sm" id="toggleButton" onclick="showMore()">Baca
+                    Selengkapnya</button>
+                </div>
+
               </div>
             </div>
           </div>
         </div>
       </section>
 
-
       <!--======= Tim Pelatih =======-->
-      <section class="section" id="tim-pelatih">
+      <section class="section about__v4" id="tim-pelatih">
         <div class="container">
           <div class="row justify-content-center mb-4">
             <div class="col-lg-8 text-center">
@@ -386,7 +243,8 @@ License: https://freebootstrap.net/license
                 <div class="card-body">
                   <h5 class="card-title">Senpai Lukman Maulana</h5>
                   <p class="card-text">DAN II Nasional (Nidan) • Pendiri Dojo</p>
-                  <p class="text-muted small">Pelatih bersertifikat dengan pengalaman >15 tahun, membimbing sejak awal dojo berdiri dan membentuk karakter serta semangat juang karateka muda.</p>
+                  <p class="text-muted small">Pelatih bersertifikat dengan pengalaman >15 tahun, membimbing sejak awal
+                    dojo berdiri dan membentuk karakter serta semangat juang karateka muda.</p>
                 </div>
               </div>
             </div>
@@ -400,7 +258,8 @@ License: https://freebootstrap.net/license
                 <div class="card-body">
                   <h5 class="card-title">Senpai Dwi Melawati Widodo</h5>
                   <p class="card-text">DAN II Nasional (Nidan) • Pendiri Dojo</p>
-                  <p class="text-muted small">Pelatih bersertifikat KONI Jateng dengan pengalaman >15 tahun, berperan penting dalam membentuk karakter dan semangat juang karateka.</p>
+                  <p class="text-muted small">Pelatih bersertifikat KONI Jateng dengan pengalaman >15 tahun, berperan
+                    penting dalam membentuk karakter dan semangat juang karateka.</p>
                 </div>
               </div>
             </div>
@@ -414,7 +273,9 @@ License: https://freebootstrap.net/license
                 <div class="card-body">
                   <h5 class="card-title">Senpai Muhammad Shodiqul ‘Amali</h5>
                   <p class="card-text">DAN I Nasional (Shodan) • Pelatih</p>
-                  <p class="text-muted small">Pelatih berpengalaman lebih dari 5 tahun yang aktif membina karateka dengan dedikasi tinggi. Turut berperan dalam menanamkan kedisiplinan dan semangat juang pada generasi muda.</p>
+                  <p class="text-muted small">Pelatih berpengalaman lebih dari 5 tahun yang aktif membina karateka
+                    dengan dedikasi tinggi. Turut berperan dalam menanamkan kedisiplinan dan semangat juang pada
+                    generasi muda.</p>
                 </div>
               </div>
             </div>
@@ -422,15 +283,14 @@ License: https://freebootstrap.net/license
         </div>
       </section>
 
-
       <!--======= Sumpah Karate =======-->
-      <section class="section bg-light" id="sumpah">
+      <section class="section bg-light about__v4 py-5" id="sumpah">
         <div class="container">
           <div class="row justify-content-center mb-4">
             <div class="col-lg-10 text-center">
               <span class="subtitle text-uppercase" data-aos="fade-up">Pedoman Moral Seorang Karateka</span>
-              <h2 class="mb-4" data-aos="fade-up" data-aos-delay="100">Sumpah Karate</h2>
-              <p class="lead" data-aos="fade-up" data-aos-delay="200">
+              <h2 class="fw-bold mt-3 mb-3" data-aos="fade-up" data-aos-delay="100">Sumpah Karate</h2>
+              <p class="lead fs-6 text-muted px-md-5" data-aos="fade-up" data-aos-delay="200">
                 Sumpah ini membentuk karakter disiplin, sopan santun, dan integritas bagi setiap karateka dalam
                 menjalani latihan maupun kehidupan sehari-hari.
               </p>
@@ -440,30 +300,36 @@ License: https://freebootstrap.net/license
           <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="300">
             <div class="col-md-10">
               <div class="card p-4 rounded-4 border-0 shadow-sm bg-white">
-                <ol class="fs-5">
-                  <li><strong>Sanggup Memelihara Kepribadian:</strong> Seorang karateka diharapkan memiliki kepribadian yang baik, sportif, berbudi pekerti luhur, dan rendah hati.</li>
-                  <li><strong>Sanggup Patuh Pada Kejujuran:</strong> Karateka harus jujur pada diri sendiri dan orang lain, serta menjauhi kebohongan.</li>
-                  <li><strong>Sanggup Mempertinggi Prestasi:</strong> Setiap karateka harus berusaha meningkatkan kemampuan teknik, fisik, dan pemahaman filosofi karate.</li>
-                  <li><strong>Sanggup Menjaga Sopan Santun:</strong> Seorang karateka harus menjaga sikap sopan santun dalam berbagai situasi, baik di perguruan, pekerjaan, maupun dalam kehidupan sosial.</li>
-                  <li><strong>Sanggup Menguasai Diri:</strong> Karateka harus mampu mengendalikan emosi dan menghindari konflik yang tidak perlu, serta mengutamakan musyawarah dalam menyelesaikan masalah. </li>
+                <ol class="fs-6 lh-lg">
+                  <li><strong>Sanggup Memelihara Kepribadian:</strong> Seorang karateka diharapkan memiliki kepribadian
+                    yang baik, sportif, berbudi pekerti luhur, dan rendah hati.</li>
+                  <li><strong>Sanggup Patuh Pada Kejujuran:</strong> Karateka harus jujur pada diri sendiri dan orang
+                    lain, serta menjauhi kebohongan.</li>
+                  <li><strong>Sanggup Mempertinggi Prestasi:</strong> Setiap karateka harus berusaha meningkatkan
+                    kemampuan teknik, fisik, dan pemahaman filosofi karate.</li>
+                  <li><strong>Sanggup Menjaga Sopan Santun:</strong> Seorang karateka harus menjaga sikap sopan santun
+                    dalam berbagai situasi, baik di perguruan, pekerjaan, maupun dalam kehidupan sosial.</li>
+                  <li><strong>Sanggup Menguasai Diri:</strong> Karateka harus mampu mengendalikan emosi dan menghindari
+                    konflik yang tidak perlu, serta mengutamakan musyawarah dalam menyelesaikan masalah.</li>
                 </ol>
-                <p class="mb-0 text-muted mt-3"><em>Sumpah Karate bukan hanya sekedar ucapan, tetapi juga pedoman perilaku yang harus dihayati dan diamalkan dalam setiap aspek kehidupan seorang karateka.</em></p>
+                <p class="mb-0 text-muted mt-3 fst-italic">
+                  Sumpah Karate bukan hanya sekedar ucapan, tetapi juga pedoman perilaku yang harus dihayati dan
+                  diamalkan dalam setiap aspek kehidupan seorang karateka.
+                </p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-
-
       <!--======= Janji Karate-Do Gojukai =======-->
-      <section class="section bg-white" id="janji">
+      <section class="section bg-white about__v4 py-5" id="janji">
         <div class="container">
           <div class="row justify-content-center mb-4">
             <div class="col-lg-10 text-center">
               <span class="subtitle text-uppercase" data-aos="fade-up">Komitmen Karateka Gojukai</span>
-              <h2 class="mb-4" data-aos="fade-up" data-aos-delay="100">Janji Karate-Do Gojukai</h2>
-              <p class="lead" data-aos="fade-up" data-aos-delay="200">
+              <h2 class="fw-bold mt-3 mb-3" data-aos="fade-up" data-aos-delay="100">Janji Karate-Do Gojukai</h2>
+              <p class="lead fs-6 text-muted px-md-5" data-aos="fade-up" data-aos-delay="200">
                 Kami merasa bersyukur kepada Tuhan Yang Maha Esa, dapat mempelajari Karate-Do Goju dan berjanji:
               </p>
             </div>
@@ -472,7 +338,7 @@ License: https://freebootstrap.net/license
           <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="300">
             <div class="col-md-10">
               <div class="card p-4 rounded-4 border-0 shadow-sm bg-light">
-                <ol class="fs-5 mb-0">
+                <ol class="fs-6 lh-lg mb-0">
                   <li>Mempelajari Karate-Do hanya untuk tujuan-tujuan mulia.</li>
                   <li>Mempelajari Karate-Do dengan semangat dan jiwa kesatria.</li>
                   <li>Menjunjung tinggi nama baik perguruan dalam ucapan dan tindakan.</li>
@@ -484,115 +350,157 @@ License: https://freebootstrap.net/license
       </section>
 
       <!--======= Keunggulan Dojo =======-->
-      <section class="section bg-light" id="keunggulan">
+      <section class="section bg-light about__v4 py-5" id="keunggulan">
         <div class="container">
           <div class="row justify-content-center mb-4">
             <div class="col-lg-10 text-center">
               <span class="subtitle text-uppercase" data-aos="fade-up">Keunggulan</span>
-              <h2 class="mb-4" data-aos="fade-up" data-aos-delay="100"> Keunggulan Dojo Kami</h2>
-              <span class="hero-subtitle text-uppercase" data-aos="fade-up" data-aos-delay="0">
-                    Trusted for 15 Years
-                  </span>
-              <p class="lead" data-aos="fade-up" data-aos-delay="200">
+              <h2 class="fw-bold mt-3 mb-3" data-aos="fade-up" data-aos-delay="100">Keunggulan Dojo Kami</h2>
+              <div
+                class="d-inline-block px-4 py-2 rounded-pill bg-warning-subtle text-warning-emphasis fw-semibold shadow-sm border border-warning-subtle mb-3"
+                data-aos="fade-up" data-aos-delay="150" style="font-size: 1rem;">
+                ⭐ Trusted for 15 Years
+              </div>
+              <p class="lead fs-6 text-muted px-md-5" data-aos="fade-up" data-aos-delay="200">
                 Berikut adalah pencapaian dan keunggulan yang membuat Dojo SD Negeri Kradenan 01 Pekalongan layak
                 menjadi pilihan terbaik untuk mengembangkan potensi Karateka sejak dini.
               </p>
             </div>
           </div>
 
-          <div class="row" data-aos="fade-up" data-aos-delay="300">
-            <div class="col-lg-10 mx-auto">
-              <ol class="fs-5">
-                <li>
-                  Kontingen Dojo peraih <strong>JUARA UMUM 3 se-JAWA TENGAH</strong> KEJURDA GOJUKAI 2023 kategori
-                  Festival dengan total medali:
-                  🥇: 18 | 🥈: 14 | 🥉: 7
-                </li>
-                <li>
-                  Kontingen Dojo peraih <strong>JUARA UMUM 3 se-JAWA TENGAH</strong> PIALA DINPARBUDPORA 2024 kategori
-                  Prestasi dengan total medali:
-                  🥇: 4 | 🥈: 11 | 🥉: 11
-                </li>
-                <li>
-                  Kontingen Dojo peraih <strong>JUARA KONTINGEN FAVORIT 1 se-JAWA TENGAH</strong> PIALA DINPARBUDPORA
-                  2024 dengan total medali:
-                  🥇: 9 | 🥈: 17 | 🥉: 16
-                </li>
-                <li>
-                  Kontingen Dojo peraih <strong>Peringkat 9 (masuk 10 besar)</strong> event FORKI se-JAWA TENGAH BATIK
-                  KARATE CUP 2025.
-                </li>
-                <li>
-                  Memiliki Tim Pelatih yang telah <strong>TERSERTIFIKASI KONI JAWA TENGAH</strong> sebagai Pelatih resmi
-                  (bukan hanya sertifikat Sabuk Hitam).
-                </li>
-                <li>
-                  Siswa-siswi SDN Kradenan 01 yang mengikuti ekstrakurikuler Karate akan <strong>mendapatkan nilai Eskul
-                    di rapor</strong> resmi sekolah.
-                </li>
-                <li>
-                  <strong>Digitalisasi Presensi:</strong> Menggunakan Barcode ID Card yang di-scan setiap latihan untuk
-                  mencatat kehadiran Karateka.
-                </li>
-                <li>
-                  <strong>Digitalisasi Administrasi:</strong> Seluruh data dan pembayaran dapat dilakukan secara digital
-                  dan non-tunai (transfer), namun tunai juga tetap tersedia.
-                </li>
-              </ol>
+          <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="300">
+            <div class="col-lg-10">
+              <div class="card p-4 rounded-4 border-0 shadow-sm bg-white">
+                <ol class="fs-6 lh-lg">
+                  <li>
+                    Kontingen Dojo peraih <strong>JUARA UMUM 3 se-JAWA TENGAH</strong> KEJURDA GOJUKAI 2023 kategori
+                    Festival dengan total medali:
+                    <div class="d-flex gap-3 mt-1">
+                      <span class="badge bg-warning text-dark fs-6 px-3 py-2">🥇 18 Emas</span>
+                      <span class="badge bg-secondary fs-6 px-3 py-2">🥈 14 Perak</span>
+                      <span class="badge bg-bronze text-white fs-6 px-3 py-2" style="background-color: #cd7f32;">🥉 7
+                        Perunggu</span>
+                    </div>
+                  </li>
+
+                  <li class="mt-3">
+                    Kontingen Dojo peraih <strong>JUARA UMUM 3 se-JAWA TENGAH</strong> PIALA DINPARBUDPORA 2024 kategori
+                    Prestasi dengan total medali:
+                    <div class="d-flex gap-3 mt-1">
+                      <span class="badge bg-warning text-dark fs-6 px-3 py-2">🥇 4 Emas</span>
+                      <span class="badge bg-secondary fs-6 px-3 py-2">🥈 11 Perak</span>
+                      <span class="badge bg-bronze text-white fs-6 px-3 py-2" style="background-color: #cd7f32;">🥉 11
+                        Perunggu</span>
+                    </div>
+                  </li>
+
+                  <li class="mt-3">
+                    Kontingen Dojo peraih <strong>JUARA KONTINGEN FAVORIT 1 se-JAWA TENGAH</strong> PIALA DINPARBUDPORA
+                    2024 dengan total medali:
+                    <div class="d-flex gap-3 mt-1">
+                      <span class="badge bg-warning text-dark fs-6 px-3 py-2">🥇 9 Emas</span>
+                      <span class="badge bg-secondary fs-6 px-3 py-2">🥈 17 Perak</span>
+                      <span class="badge bg-bronze text-white fs-6 px-3 py-2" style="background-color: #cd7f32;">🥉 16
+                        Perunggu</span>
+                    </div>
+                  </li>
+
+                  <li class="mt-3">
+                    Kontingen Dojo peraih <strong>Peringkat 9 (masuk 10 besar)</strong> event FORKI se-JAWA TENGAH BATIK
+                    KARATE CUP 2025.
+                  </li>
+
+                  <li class="mt-3">
+                    Memiliki Tim Pelatih yang telah <strong>TERSERTIFIKASI KONI JAWA TENGAH</strong> sebagai Pelatih
+                    resmi (bukan hanya sertifikat Sabuk Hitam).
+                  </li>
+
+                  <li class="mt-3">
+                    Siswa-siswi SDN Kradenan 01 yang mengikuti ekstrakurikuler Karate akan <strong>mendapatkan nilai
+                      Eskul di rapor</strong> resmi sekolah.
+                  </li>
+
+                  <li class="mt-3">
+                    <strong>Digitalisasi Presensi:</strong> Menggunakan Barcode ID Card yang di-scan setiap latihan
+                    untuk mencatat kehadiran Karateka.
+                  </li>
+
+                  <li class="mt-3">
+                    <strong>Digitalisasi Administrasi:</strong> Seluruh data dan pembayaran dapat dilakukan secara
+                    digital dan non-tunai (transfer), namun tunai juga tetap tersedia.
+                  </li>
+                </ol>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
       <!--======= Daftar Dojo =======-->
-      <section class="about__v4 section" id="daftar-dojo">
-        <div class="container">
-          <div class="row">
-            <!-- Konten Daftar Dojo -->
-            <div class="col-md-6">
-              <div class="row">
-                <div class="col-md-11 mb-4 mb-md-0">
-                  <span class="subtitle text-uppercase mb-3" data-aos="fade-up" data-aos-delay="0">Tentang Kami</span>
-                  <h2 class="mb-4" data-aos="fade-up" data-aos-delay="100">
-                    Daftar Dojo Terafiliasi
-                  </h2>
-                  <div data-aos="fade-up" data-aos-delay="200">
-                    <ul class="list-unstyled">
-                      <li class="d-flex align-items-start gap-2 mb-2">
-                        <span class="icon rounded-circle text-center"><i class="bi bi-check-circle"></i></span>
-                        <span class="text">1. Dojo SMP Negeri 14 Pekalongan</span>
-                      </li>
-                      <!-- Tambahkan dojo lain di sini jika ada -->
-                    </ul>
-                  </div>
-                </div>
+      <section class="section bg-white about__v4 py-5" id="daftar-dojo">
+        <div class="container ">
+          <div class="row justify-content-center mb-4">
+            <div class="col-lg-10 text-center">
+              <span class="subtitle text-uppercase " data-aos="fade-up">Daftar Dojo</span>
+              <h2 class="mb-4" data-aos="fade-up" data-aos-delay="100">Daftar Dojo Terafiliasi</h2>
+              <p class="lead" data-aos="fade-up" data-aos-delay="200">
+                Berikut adalah daftar Dojo yang telah terafiliasi resmi dan menjadi bagian dari jaringan latihan kami.
+              </p>
+            </div>
+          </div>
+
+          <!-- Dojo List -->
+          <div class="row gy-4 justify-content-center" data-aos="fade-up" data-aos-delay="300">
+            <!-- Card 1 -->
+            <div class="col-md-4 col-sm-6 ">
+              <div class="card p-3 border-0 shadow-sm rounded-4 h-100 bg-secondary">
+                <img src="assets/images/karateka,trofi.jpg" alt="Dojo SMPN 14" class="img-fluid rounded-4 mb-3 w-100">
+                <h5 class="fw-bold text-center">1. Dojo SMP Negeri 14 Pekalongan</h5>
               </div>
             </div>
 
-            <!-- Gambar Pendukung -->
-            <div class="col-md-6 order-md-2">
-              <div class="img-wrap position-relative">
-                <img class="img-fluid rounded-4" src="assets/images/karateka,trofi.jpg" alt="Dojo Terafiliasi"
-                  data-aos="fade-up" data-aos-delay="0">
+
+            <!-- Card 2 -->
+            <div class="col-md-4 col-sm-6">
+              <div class="card p-3 border-0 shadow-sm rounded-4 h-100 bg-secondary">
+                <img src="assets/images/karateka,trofi.jpg" alt="Nama Dojo" class="img-fluid rounded-4 mb-3 w-100">
+                <h5 class="fw-bold text-center">2. Dojo SMP Negeri 16 Pekalongan</h5>
               </div>
             </div>
+
           </div>
         </div>
       </section>
 
       <!--======= Sabuk =======-->
-      <section class="about__v4 section" id="tingkatan-sabuk">
+      <section class="section bg-white about__v4 py-5" id="tingkatan-sabuk">
         <div class="container">
-          <div class="row">
-            <!-- Konten Penjelasan Tingkatan Sabuk -->
-            <div class="col-md-6 order-md-2">
-              <div class="row">
-                <div class="col-md-11 mb-4 mb-md-0">
-                  <span class="subtitle text-uppercase mb-3" data-aos="fade-up" data-aos-delay="0">Tentang Kami</span>
-                  <h2 class="mb-4" data-aos="fade-up" data-aos-delay="100">
-                    Tingkatan Sabuk dalam Karate Gojukai
-                  </h2>
-                  <div data-aos="fade-up" data-aos-delay="200">
+          <div class="row justify-content-center mb-4">
+            <div class="col-lg-10 text-center">
+              <span class="subtitle text-uppercase " data-aos="fade-up">
+                Tingkatan Sabuk
+              </span>
+              <h2 class="mb-4" data-aos="fade-up" data-aos-delay="100">
+                Tingkatan Sabuk dalam Karate Gojukai
+              </h2>
+              <p class="lead" data-aos="fade-up" data-aos-delay="200">
+                Dalam Karate Gojukai, tingkatan sabuk menunjukkan kemajuan dan pencapaian seorang karateka.
+              </p>
+            </div>
+          </div>
+
+          <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="300">
+            <div class="col-md-11">
+              <div class="card p-4 rounded-4 border-0 shadow-sm bg-light">
+                <div class="row align-items-center">
+                  <!-- Gambar -->
+                  <div class="col-md-5 mb-3 mb-md-0">
+                    <img src="assets/images/obi.jpg" alt="Tingkatan Sabuk Karate"
+                      class="img-fluid rounded-4 shadow-sm w-100">
+                  </div>
+
+                  <!-- Konten -->
+                  <div class="col-md-7">
                     <p>
                       Dalam Karate Gojukai, tingkatan sabuk atau obi (dalam bahasa Jepang) menunjukkan kemajuan seorang
                       karateka. Dimulai dari sabuk putih untuk pemula, tingkatan sabuk kemudian meningkat secara
@@ -601,66 +509,70 @@ License: https://freebootstrap.net/license
                     </p>
 
                     <p>Berikut adalah urutan tingkatan sabuk dalam Karate Gojukai:</p>
+                    <div id="sabuk-full" style="display: none;">
+                      <ul class="list-unstyled">
+                        <li class="mb-2 d-flex align-items-start gap-2">
+                          <span class="text-success"><i class="bi bi-check-circle-fill"></i></span>
+                          <span>1.) Sabuk Putih (Muki Obi): Menandakan pemula yang baru memulai latihan karate.</span>
+                        </li>
+                        <li class="mb-2 d-flex align-items-start gap-2">
+                          <span class="text-success"><i class="bi bi-check-circle-fill"></i></span>
+                          <span>2.) Sabuk Kuning (Kiiro Obi): Menunjukkan bahwa karateka telah menguasai gerakan dasar
+                            (kihon).</span>
+                        </li>
+                        <li class="mb-2 d-flex align-items-start gap-2">
+                          <span class="text-success"><i class="bi bi-check-circle-fill"></i></span>
+                          <span>3.) Sabuk Hijau (Midori Obi): Menandakan penguasaan teknik menghindar dan aplikasi dasar
+                            karate.</span>
+                        </li>
+                        <li class="mb-2 d-flex align-items-start gap-2">
+                          <span class="text-success"><i class="bi bi-check-circle-fill"></i></span>
+                          <span>4.) Sabuk Biru (Ao Obi): Menunjukkan peningkatan dalam teknik, kontrol, dan
+                            emosi.</span>
+                        </li>
+                        <li class="mb-2 d-flex align-items-start gap-2">
+                          <span class="text-success"><i class="bi bi-check-circle-fill"></i></span>
+                          <span>5.) Sabuk Ungu (Murasaki Obi): Tahapan menuju sabuk coklat, menunjukkan peningkatan
+                            lebih
+                            lanjut dalam kemampuan.</span>
+                        </li>
+                        <li class="mb-2 d-flex align-items-start gap-2">
+                          <span class="text-success"><i class="bi bi-check-circle-fill"></i></span>
+                          <span>6.) Sabuk Coklat (Chairo Obi): Tingkatan tertinggi sebelum sabuk hitam, menandakan
+                            kematangan dalam teknik dan sikap.</span>
+                        </li>
+                        <li class="mb-2 d-flex align-items-start gap-2">
+                          <span class="text-success"><i class="bi bi-check-circle-fill"></i></span>
+                          <span>7.) Sabuk Hitam (Kuro Obi): Menunjukkan penguasaan penuh atas teknik karate dan
+                            kemampuan
+                            mengajar.</span>
+                        </li>
+                      </ul>
 
-                    <ul class="list-unstyled">
-                      <li class="mb-2 d-flex align-items-start gap-2">
-                        <span class="icon rounded-circle text-center"><i class="bi bi-check-circle"></i></span>
-                        <span>1.) Sabuk Putih (Muki Obi): Menandakan pemula yang baru memulai latihan karate.</span>
-                      </li>
-                      <li class="mb-2 d-flex align-items-start gap-2">
-                        <span class="icon rounded-circle text-center"><i class="bi bi-check-circle"></i></span>
-                        <span>2.) Sabuk Kuning (Kiiro Obi): Menunjukkan bahwa karateka telah menguasai gerakan dasar
-                          (kihon).</span>
-                      </li>
-                      <li class="mb-2 d-flex align-items-start gap-2">
-                        <span class="icon rounded-circle text-center"><i class="bi bi-check-circle"></i></span>
-                        <span>3.) Sabuk Hijau (Midori Obi): Menandakan penguasaan teknik menghindar dan aplikasi dasar
-                          karate.</span>
-                      </li>
-                      <li class="mb-2 d-flex align-items-start gap-2">
-                        <span class="icon rounded-circle text-center"><i class="bi bi-check-circle"></i></span>
-                        <span>4.) Sabuk Biru (Ao Obi): Menunjukkan peningkatan dalam teknik, kontrol, dan emosi.</span>
-                      </li>
-                      <li class="mb-2 d-flex align-items-start gap-2">
-                        <span class="icon rounded-circle text-center"><i class="bi bi-check-circle"></i></span>
-                        <span>5.) Sabuk Ungu (Murasaki Obi): Merupakan tahapan menuju sabuk coklat, menunjukkan
-                          peningkatan lebih lanjut dalam kemampuan.</span>
-                      </li>
-                      <li class="mb-2 d-flex align-items-start gap-2">
-                        <span class="icon rounded-circle text-center"><i class="bi bi-check-circle"></i></span>
-                        <span>6.) Sabuk Coklat (Chairo Obi): Tingkatan tertinggi sebelum sabuk hitam, menandakan
-                          kematangan dalam teknik dan sikap.</span>
-                      </li>
-                      <li class="mb-2 d-flex align-items-start gap-2">
-                        <span class="icon rounded-circle text-center"><i class="bi bi-check-circle"></i></span>
-                        <span>7.) Sabuk Hitam (Kuro Obi): Tingkatan tertinggi, menunjukkan penguasaan penuh atas teknik
-                          karate dan kemampuan mengajar.</span>
-                      </li>
-                    </ul>
+                      <p>
+                        Setiap tingkatan sabuk memerlukan latihan intensif dan ujian untuk naik ke tingkat berikutnya.
+                        Karateka dengan sabuk hitam diharapkan dapat menjadi contoh dan pembimbing bagi karateka
+                        lainnya.
+                      </p>
 
-                    <p>
-                      Setiap tingkatan sabuk memerlukan latihan yang intensif dan ujian untuk dapat naik ke tingkatan
-                      berikutnya. Karateka dengan sabuk hitam (Dan) diharapkan dapat menjadi contoh dan memberikan
-                      bimbingan bagi karateka yang lebih junior.
-                    </p>
+                    </div>
+                    <!-- Tombol toggle -->
+                    <div class="text-center mt-4">
+                      <button class="btn btn-outline-primary btn-sm" id="toggleButtonSabuk" onclick="toggleSabuk()">Baca
+                        Selengkapnya</button>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-
-            <!-- Gambar Tingkatan Sabuk -->
-            <div class="col-md-6">
-              <div class="img-wrap position-relative">
-                <img class="img-fluid rounded-4" src="assets/images/obi.jpg" alt="Tingkatan Sabuk Karate"
-                  data-aos="fade-up" data-aos-delay="0">
-              </div>
-            </div>
           </div>
+
         </div>
       </section>
 
+
       <!--======= Galeri Kegiatan =======-->
-      <section class="section" id="kegiatan">
+      <section class="about__v4 section" id="kegiatan">
         <div class="container">
           <div class="row justify-content-center mb-4">
             <div class="col-lg-8 text-center">
@@ -673,91 +585,69 @@ License: https://freebootstrap.net/license
             </div>
           </div>
 
-          <div class="row">
-            <!-- Kegiatan 1 -->
-            <div class="col-md-6 col-lg-4 mb-4" data-aos="zoom-in" data-aos-delay="100">
-              <div class="card h-100 border-0 shadow-sm">
-                <img src="assets/images/demo-promosi.mp4" class="card-img-top rounded-top" alt="Demo Promosi Karate">
-                <div class="card-body">
-                  <p class="card-text">1.) Demo Promosi Ekstrakurikuler Karate di Sekolah & Sosialisasi.</p>
-                </div>
+          <!-- Scrollable Carousel -->
+          <div class="scroll-card-container" data-aos="fade-up" data-aos-delay="300">
+            <!-- Kegiatan -->
+            <div class="scroll-card" data-aos="zoom-in" data-aos-delay="100">
+              <img src="assets/images/demo-promosi.jpg" alt="Demo Promosi Karate">
+              <div class="card-body">
+                <p class="card-text">1.) Demo Promosi Ekstrakurikuler Karate di Sekolah & Sosialisasi.</p>
               </div>
             </div>
 
-            <!-- Kegiatan 2 -->
-            <div class="col-md-6 col-lg-4 mb-4" data-aos="zoom-in" data-aos-delay="200">
-              <div class="card h-100 border-0 shadow-sm">
-                <img src="assets/images/karateka of the month.jpg" class="card-img-top rounded-top"
-                  alt="Piala Karateka of the Month">
-                <div class="card-body">
-                  <p class="card-text">2.) Penyerahan Piala Karateka Of The Month kepada para Karateka terpilih.</p>
-                </div>
+            <div class="scroll-card" data-aos="zoom-in" data-aos-delay="200">
+              <img src="assets/images/karateka of the month.jpg" alt="Piala Karateka of the Month">
+              <div class="card-body">
+                <p class="card-text">2.) Penyerahan Piala Karateka Of The Month kepada para Karateka terpilih.</p>
               </div>
             </div>
 
-            <!-- Kegiatan 3 -->
-            <div class="col-md-6 col-lg-4 mb-4" data-aos="zoom-in" data-aos-delay="300">
-              <div class="card h-100 border-0 shadow-sm">
-                <img src="assets/images/bagi takil.jpg" class="card-img-top rounded-top" alt="Pembagian Takjil">
-                <div class="card-body">
-                  <p class="card-text">3.) Pembagian Takjil di Bulan Puasa.</p>
-                </div>
+            <div class="scroll-card" data-aos="zoom-in" data-aos-delay="300">
+              <img src="assets/images/bagi takil.jpg" alt="Pembagian Takjil">
+              <div class="card-body">
+                <p class="card-text">3.) Pembagian Takjil di Bulan Puasa.</p>
               </div>
             </div>
 
-            <!-- Kegiatan 4 -->
-            <div class="col-md-6 col-lg-4 mb-4" data-aos="zoom-in" data-aos-delay="400">
-              <div class="card h-100 border-0 shadow-sm">
-                <img src="assets/images/bukabersama-senior.jpg" class="card-img-top rounded-top" alt="Buka Puasa Bersama Senior">
-                <div class="card-body">
-                  <p class="card-text">4.) Buka Puasa Bersama Senior Karate Gojukai Kota Pekalongan.</p>
-                </div>
+            <div class="scroll-card" data-aos="zoom-in" data-aos-delay="400">
+              <img src="assets/images/bukabersama-senior.jpg" alt="Buka Puasa Bersama Senior">
+              <div class="card-body">
+                <p class="card-text">4.) Buka Puasa Bersama Senior Karate Gojukai Kota Pekalongan.</p>
               </div>
             </div>
 
-            <!-- Kegiatan 5 -->
-            <div class="col-md-6 col-lg-4 mb-4" data-aos="zoom-in" data-aos-delay="500">
-              <div class="card h-100 border-0 shadow-sm">
-                <img src="assets/images/latihan-gabungan.jpg" class="card-img-top rounded-top" alt="Latihan Gabungan">
-                <div class="card-body">
-                  <p class="card-text">5.) Latihan Gabungan se-Kota Pekalongan.</p>
-                </div>
+            <div class="scroll-card" data-aos="zoom-in" data-aos-delay="500">
+              <img src="assets/images/latihan-gabungan.jpg" alt="Latihan Gabungan">
+              <div class="card-body">
+                <p class="card-text">5.) Latihan Gabungan se-Kota Pekalongan.</p>
               </div>
             </div>
 
-            <!-- Kegiatan 6 -->
-            <div class="col-md-6 col-lg-4 mb-4" data-aos="zoom-in" data-aos-delay="600">
-              <div class="card h-100 border-0 shadow-sm">
-                <img src="assets/images/rapatortu.mp4" class="card-img-top rounded-top" alt="Rapat Jelang Pertandingan">
-                <div class="card-body">
-                  <p class="card-text">6.) Rapat dengan Orang Tua/Wali Karateka & Tim Official jelang pertandingan.</p>
-                </div>
+            <div class="scroll-card" data-aos="zoom-in" data-aos-delay="600">
+              <img src="assets/images/rapatortu.jpg" alt="Rapat Jelang Pertandingan">
+              <div class="card-body">
+                <p class="card-text">6.) Rapat dengan Orang Tua/Wali Karateka & Tim Official jelang pertandingan.</p>
               </div>
             </div>
 
-            <!-- Kegiatan 7 -->
-            <div class="col-md-6 col-lg-4 mb-4" data-aos="zoom-in" data-aos-delay="700">
-              <div class="card h-100 border-0 shadow-sm">
-                <img src="assets/images/syukuran.jpg" class="card-img-top rounded-top" alt="Syukuran">
-                <div class="card-body">
-                  <p class="card-text">7.) Syukuran Usai Pertandingan bersama Tim Official.</p>
-                </div>
+            <div class="scroll-card" data-aos="zoom-in" data-aos-delay="700">
+              <img src="assets/images/syukuran.jpg" alt="Syukuran">
+              <div class="card-body">
+                <p class="card-text">7.) Syukuran Usai Pertandingan bersama Tim Official.</p>
               </div>
             </div>
 
-            <!-- Kegiatan 8 -->
-            <div class="col-md-6 col-lg-4 mb-4" data-aos="zoom-in" data-aos-delay="800">
-              <div class="card h-100 border-0 shadow-sm">
-                <img src="assets/images/ultadojo1.jpg" class="card-img-top rounded-top" alt="Ulang Tahun Dojo">
-                <div class="card-body">
-                  <p class="card-text">8.) Perayaan Ulang Tahun Dojo</p>
-                </div>
+            <div class="scroll-card" data-aos="zoom-in" data-aos-delay="800">
+              <img src="assets/images/ultadojo1.jpg" alt="Ulang Tahun Dojo">
+              <div class="card-body">
+                <p class="card-text">8.) Perayaan Ulang Tahun Dojo</p>
               </div>
             </div>
-
           </div>
         </div>
       </section>
+
+
 
       <!--======= Manfaat =======-->
       <section class="section bg-light" id="manfaat">
@@ -1369,82 +1259,10 @@ License: https://freebootstrap.net/license
       </section>
       <!-- End Contact-->
 
-      <!-- ======= Footer =======-->
-      <footer class="footer pt-5 pb-5">
-        <div class="container">
-          <div class="row mb-5 pb-4">
-            <div class="col-md-7">
-              <h2 class="fs-5">Join our newsletter</h2>
-              <p>Stay updated with our latest templates and offers—join our newsletter today!</p>
-            </div>
-            <div class="col-md-5">
-              <form class="d-flex gap-2">
-                <input class="form-control" type="email" placeholder="Email your email" required="">
-                <button class="btn btn-primary fs-6" type="submit">Subscribe</button>
-              </form>
-            </div>
-          </div>
-          <div class="row justify-content-between mb-5 g-xl-5">
-            <div class="col-md-4 mb-5 mb-lg-0">
-              <h3 class="mb-3">About</h3>
-              <p class="mb-4">Utilize our tools to develop your concepts and bring your vision to life. Once complete,
-                effortlessly share your creations.</p>
-            </div>
-            <div class="col-md-7">
-              <div class="row g-2">
-                <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
-                  <h3 class="mb-3">Company</h3>
-                  <ul class="list-unstyled">
-                    <li><a href="page-about.html">Leadership</a></li>
-                    <li><a href="page-careers.html">Careers <span class="badge ms-1">we're hiring</span></a></li>
-                    <li><a href="page-case-studies.html">Case Studies</a></li>
-                    <li><a href="page-terms-conditions.html">Terms &amp; Conditions</a></li>
-                    <li><a href="page-privacy-policy.html">Privacy Policy</a></li>
-                    <li><a href="page-404.html">404 page</a></li>
-                  </ul>
-                </div>
-                <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
-                  <h3 class="mb-3">Accounts</h3>
-                  <ul class="list-unstyled">
-                    <li><a href="page-signup.html">Register</a></li>
-                    <li><a href="page-signin.html">Sign in</a></li>
-                    <li><a href="page-forgot-password.html">Fogot Password</a></li>
-                    <li><a href="page-coming-soon.html">Coming soon</a></li>
-                    <li><a href="page-portfolio-masonry.html">Portfolio Masonry</a></li>
-                  </ul>
-                </div>
-                <div class="col-md-6 col-lg-4 mb-4 mb-lg-0 quick-contact">
-                  <h3 class="mb-3">Contact</h3>
-                  <p class="d-flex mb-3"><i class="bi bi-geo-alt-fill me-3"></i><span>123 Main Street Apt 4B
-                      Springfield, <br> IL 62701 United States</span></p><a class="d-flex mb-3"
-                    href="mailto:info@mydomain.com"><i
-                      class="bi bi-envelope-fill me-3"></i><span>info@mydomain.com</span></a><a class="d-flex mb-3"
-                    href="tel://+123456789900"><i class="bi bi-telephone-fill me-3"></i><span>+1 (234) 5678
-                      9900</span></a><a class="d-flex mb-3" href="https://freebootstrap.net"><i
-                      class="bi bi-globe me-3"></i><span>FreeBootstrap.net</span></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row credits pt-3">
-            <div class="col-xl-8 text-center text-xl-start mb-3 mb-xl-0">
-              <!--
-                Note:
-                =>>> Please keep all the footer links intact. <<<=
-                =>>> You can only remove the links if you buy the pro version. <<<=
-                =>>> Buy the pro version, which includes a functional PHP/AJAX contact form and many additional features.: https://freebootstrap.net/template/vertex-pro-bootstrap-website-template-for-portfolio/ <<<=
-                -->
-              &copy;
-              <script>document.write(new Date().getFullYear());</script> 
-              All rights reserved. Trusted for 15 Years<a
-                href="index.html"></a>
-            </div>
-            
-        </div>
-      </footer>
-      <!-- End Footer-->
-
     </main>
+
+    <div id="footer"></div>
+
   </div>
 
   <!-- ======= Back to Top =======-->
@@ -1471,6 +1289,47 @@ License: https://freebootstrap.net/license
       .then(res => res.text())
       .then(html => document.getElementById('footer').innerHTML = html);
   </script>
+  <script>
+    function showMore() {
+      const content = document.getElementById('sejarah-full');
+      const button = document.getElementById('toggleButton');
+      content.style.display = 'block';
+      button.style.display = 'none'; // hilangkan tombol setelah diklik
+    }
+
+    function toggleSabuk() {
+      const content = document.getElementById('sabuk-full');
+      const button = document.getElementById('toggleButtonSabuk');
+      if (content.style.display === 'none') {
+        content.style.display = 'block';
+        button.innerText = 'Sembunyikan';
+      } else {
+        content.style.display = 'none';
+        button.innerText = 'Baca Selengkapnya';
+      }
+    }
+
+  </script>
+  
+  <!--  Auto scroll horizontal carousel -->
+  <script>
+    const carousel = document.querySelector('.scroll-card-container');
+
+    if (carousel) {
+      let scrollSpeed = 0.5; // pixels per frame
+      function autoScroll() {
+        if (carousel.scrollLeft + carousel.clientWidth >= carousel.scrollWidth) {
+          carousel.scrollLeft = 0;
+        } else {
+          carousel.scrollLeft += scrollSpeed;
+        }
+        requestAnimationFrame(autoScroll);
+      }
+
+      autoScroll();
+    }
+  </script>
+
   <!-- End JavaScripts-->
 </body>
 
