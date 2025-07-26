@@ -1139,7 +1139,31 @@ h6 {
 
 .howitworks__v1 .step-card {
   position: relative;
+  max-width: 350px;
 }
+
+.howitworks__v1 .step-card .btn {
+  width: auto;
+  max-width: max-content;
+  white-space: nowrap;
+}
+
+.howitworks__v1 .scroll-prestasi > div {
+  flex-shrink: 0;
+  min-width: 270px;
+}
+
+.howitworks__v1 .scroll-prestasi {
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.howitworks__v1 .scroll-prestasi > div {
+  flex-shrink: 0;
+  min-width: 270px;
+  scroll-snap-align: start;
+}
+
 
 .howitworks__v1 .step-card .step-number {
   width: 60px;
