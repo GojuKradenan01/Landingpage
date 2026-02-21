@@ -1,10 +1,18 @@
+<style>
+    @media (max-width: 991px) {
+        .dropdown-menu {
+            position: static !important;
+            float: none;
+        }
+    }
+</style>
 <!-- ======= Header =======-->
 <header class="fbs__net-navbar navbar navbar-expand-lg dark" aria-label="freebootstrap.net navbar">
     <div class="container d-flex align-items-center justify-content-between">
 
 
         <!-- Start Logo-->
-        <a class="navbar-brand w-auto" href="index.html">
+        <div class="navbar-brand w-auto" href="index.html">
             <!-- If you use a text logo, uncomment this if it is commented-->
             <!-- Vertex-->
 
@@ -81,7 +89,7 @@
                                         aria-expanded="false">
                                         Tentang Kami <i class="bi bi-chevron-down"></i>
                                     </a>
-                                    <ul class="dropdown-menu">
+                                    <ul class="dropdown-menu dropdown-menu-lg-start">
                                         <li><a class="dropdown-item" href="#sejarah">Sejarah Dojo</a></li>
                                         <li><a class="dropdown-item" href="#tim-pelatih">Tim Pelatih</a></li>
                                         <li><a class="dropdown-item" href="#sumpah">Sumpah Karate</a></li>
@@ -101,11 +109,11 @@
                                         aria-expanded="false">
                                         Program <i class="bi bi-chevron-down"></i>
                                     </a>
-                                    <ul class="dropdown-menu">
+                                    <ul class="dropdown-menu dropdown-menu-lg-start">
                                         <li><a class="dropdown-item" href="#latihan-umum">Latihan Umum</a></li>
                                         <li class="dropdown-submenu dropend">
                                             <a class="dropdown-item dropdown-toggle" href="#">Latihan Private</a>
-                                            <ul class="dropdown-menu">
+                                            <ul class="dropdown-menu dropdown-menu-lg-start">
                                                 <li><a class="dropdown-item" href="#private-individu">Individu (max 2
                                                         orang)</a></li>
                                                 <li><a class="dropdown-item" href="#private-kelompok">Kelompok (max 6
@@ -135,8 +143,13 @@
                                 </li>
 
                             </ul>
-
+                            <div class="mt-3 d-lg-none">
+                                <a class="btn btn-primary w-100" href="https://docs.google.com/forms/d/e/1FAIpQLSeVpH0aqGKBaGoD3XvNOMfqYvLMBj4MbwEwTeVtiaOp1yszFw/viewform?usp=dialog">
+                                    Daftar
+                                </a>
+                            </div>
                         </div>
+
                     </div>
                     <!-- End offcanvas-->
 
